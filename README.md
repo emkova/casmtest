@@ -49,7 +49,7 @@ In terminal, change into the correct directory:
 ```
 cd casmtest-main
 ```
-If this does returns an error, try by copy and pasting the folder location instead.
+If this returns an error, try copy and pasting the folder location link instead.
 
 Use the Flask command or python -m flask to run the application. In order to do this, you need to specify to Flask where you application is, using the --app option.
 ```
