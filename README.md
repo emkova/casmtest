@@ -47,12 +47,13 @@ Don't forget to configure your OpenAPI Keys! You can find a step-by-step guide a
 4. **Run the app.**
 In terminal, change into the correct directory:
 ```
-cd casmtest
+cd casmtest-main
 ```
+If this does returns an error, try by copy and pasting the folder location instead.
 
 Use the Flask command or python -m flask to run the application. In order to do this, you need to specify to Flask where you application is, using the --app option.
 ```
-python3 -m flask --app app run.
+python3 -m flask --app app run
 ```
 
 If successful, terminal will provide a link, which you can then paste into your web browser. This is how you can interact with the front-facing end of the web application when you download the repository.
