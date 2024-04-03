@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <title>C.A.S.M</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='tabicon.PNG') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <img src="{{ url_for('static', filename='socials.PNG') }}" class="icon" />
+  <h3>C.A.S.M</h3>
+  <h5>Hello! I am here to make cultivating your online presence easier. I can help you with brainstorming ideas, organizing your schedule, and more!</h5>
+  <form action="/" method="post">
+    <textarea name="reflection" placeholder="Enter your thoughts." required /></textarea>
+    <input type="submit" value="let's discuss" />
+  </form>
+  {% if result %} 
+    <div class="result">{{ result }}</div> 
+  {% endif %}
+  <footer>your online presence, made simple</footer>
+</body>
